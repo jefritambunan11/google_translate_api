@@ -13,3 +13,6 @@ t means the destination language
 
 to run :
 go run main.go -st="My name is Jefri" -s="en" -t="id"
+
+the output:
+Namaku Jefri
