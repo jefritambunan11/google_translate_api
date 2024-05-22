@@ -34,7 +34,7 @@ func main() {
 
 	wg.Add(1)
 
-	var reqBody = &cli.RequestBody{
+	var reqBody = cli.RequestBody{
 		SourceLang: sourceLang,
 		TargetLang: targetLang,
 		SourceText: sourceText,

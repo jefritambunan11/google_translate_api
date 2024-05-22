@@ -11,8 +11,8 @@ st means string or the sentences that you want to translate
 s means the source language
 t means the destination language
 
-to run :
-go run main.go -st="My name is Jefri" -s="en" -t="id"
+once it compiled is done :
+google_translate_api -st="My name is Jefri Tambunan" -s="en" -t="ja"
 
 the output:
-Namaku Jefri
+私の名前はジェフリ・タンブナンです

@@ -16,7 +16,7 @@ type RequestBody struct {
 
 const translateUrl = "https://translate.googleapis.com/translate_a/single"
 
-func RequestTranslate(body *RequestBody, str chan string, wg *sync.WaitGroup) {
+func RequestTranslate(body RequestBody, str chan string, wg *sync.WaitGroup) {
 	var client = &http.Client{}
 	var req, err1 = http.NewRequest("GET", translateUrl, nil)
 
