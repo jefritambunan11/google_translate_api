@@ -1,4 +1,4 @@
-module github.com/jefritambunan11/google_translator
+module github.com/jefritambunan11/google_translate_api
 
 go 1.15
 

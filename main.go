@@ -7,7 +7,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/jefritambunan11/google_translator/cli"
+	"github.com/jefritambunan11/google_translate_api/cli"
 )
 
 var wg sync.WaitGroup
